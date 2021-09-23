@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "tipo": "PELICULA",
+    "nombre": "Volver al Futuro",
+    "lugar": "Cine Ocho",
+    "precio": 500,
+    "stockEntradas": 100,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191013/tickets/shows/VolverAlFuturo_rmcgbh.jpg"
+  },
+  {
+    "id": 2,
+    "tipo": "TEATRO",
+    "nombre": "Romeo y Julieta",
+    "lugar": "Teatro Colón",
+    "precio": 2000,
+    "stockEntradas": 450,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191015/tickets/shows/RomeoYJulieta_wrjlwj.jpg"
+  },
+  {
+    "id": 3,
+    "tipo": "RECITAL",
+    "nombre": "Rata Blanca",
+    "lugar": "Teatro Gran Rex",
+    "precio": 2500,
+    "stockEntradas": 150,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191014/tickets/shows/RataBlanca_fs0kqm.jpg"
+  },
+  {
+    "id": 4,
+    "tipo": "TEATRO",
+    "nombre": "Entre Ella y Yo",
+    "lugar": "Teatro Opera",
+    "precio": 900,
+    "stockEntradas": 450,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191007/tickets/shows/EntreEllaYYo_es7cnm.jpg"
+  },
+  {
+    "id": 5,
+    "tipo": "PELICULA",
+    "nombre": "Cruella",
+    "lugar": "Cinema Paradiso",
+    "precio": 600,
+    "stockEntradas": 200,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191007/tickets/shows/Cruella_m6tj0r.jpg"
+  },
+  {
+    "id": 6,
+    "tipo": "RECITAL",
+    "nombre": "Ciro y los Persas",
+    "lugar": "Estadio Atenas",
+    "precio": 4000,
+    "stockEntradas": 250,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191006/tickets/shows/CiroYLosPersas_hfeafe.jpg"
+  },
+  {
+    "id": 7,
+    "tipo": "TEATRO",
+    "nombre": "Ay Amor Divino",
+    "lugar": "Teatro Cervantes",
+    "precio": 1500,
+    "stockEntradas": 200,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191007/tickets/shows/AyAmorDivino_jcstis.jpg"
+  },
+  {
+    "id": 8,
+    "tipo": "PELICULA",
+    "nombre": "Space Jam",
+    "lugar": "Cine San Martín",
+    "precio": 800,
+    "stockEntradas": 300,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191013/tickets/shows/SpaceJam_r4lwdq.jpg"
+  },
+  {
+    "id": 9,
+    "tipo": "RECITAL",
+    "nombre": "Divididos",
+    "lugar": "Teatro Flores",
+    "precio": 2300,
+    "stockEntradas": 250,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191008/tickets/shows/Divididos_uyyt6i.jpg"
+  },
+  {
+    "id": 10,
+    "tipo": "TEATRO",
+    "nombre": "Drácula",
+    "lugar": "Teatro Gran Rivadavia",
+    "precio": 1000,
+    "stockEntradas": 450,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191006/tickets/shows/Dracula_mlbxdr.jpg"
+  },
+  {
+    "id": 11,
+    "tipo": "RECITAL",
+    "nombre": "Emmanuel Horviller",
+    "lugar": "Centro Cultural Konex",
+    "precio": 4000,
+    "stockEntradas": 250,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191006/tickets/shows/EmmanuelHorvilleur_cgy58s.jpg"
+  },
+  {
+    "id": 12,
+    "tipo": "PELICULA",
+    "nombre": "Rápido y Furioso 9",
+    "lugar": "Cinema City",
+    "precio": 800,
+    "stockEntradas": 300,
+    "imagen": "https://res.cloudinary.com/carlo1112/image/upload/v1630191015/tickets/shows/RapidoYFurioso9_eabosz.jpg"
+  }
+]

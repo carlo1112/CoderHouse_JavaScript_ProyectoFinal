@@ -1,0 +1,504 @@
+/* Estilo Coder-Tickets - Carlos Cattaneo */
+html,
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #000000;
+}
+
+.body-container {
+  height: 100%;
+  width: 100%;  
+  margin: 80px auto 50px auto;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+/* Mensajes */
+.mensaje {
+  display: none;
+  color: #0a0a0a;
+  text-align: center;
+  padding: 10px 0px;
+  z-index: 1;
+  font-weight: 700;
+  background-color: lightblue;
+  position: fixed;
+  top: 80px;
+  width: 100%;
+}
+
+/* Titulos */
+.titulo {
+  display: none;
+  color: #FFF;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  z-index: 1;
+  font-weight: 700;
+  width: 100%;
+  font-size: 30px;
+  text-shadow: 3px 3px 5px rgb(68, 149, 255);
+  text-transform: uppercase;
+}
+
+/* MODAL */
+.modal-dialog {
+  top: 20%;
+}
+
+.mensaje-modal {
+  color: green;
+  text-align: center;
+  padding: 10px 0px;
+  /*z-index: 1;*/
+  font-weight: 700;
+}
+.mensaje-modal.error {
+  color: red;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #8f0000;
+  height: 80px;
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  background-color: #8f0000;
+  width: 100%;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em 0 0;
+  color: #ffffff !important;
+  opacity: 0.9;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+}
+
+.navbar-nav {
+  justify-content: center;
+  width: 70%;
+}
+
+.nav-button {
+  color: #FFF;
+  background: none;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+a.nav-button:hover, .dropdown-item:hover {
+  color: rgb(89, 178, 238);
+  font-weight: 600;
+  text-decoration: unset;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  opacity: 1;
+  background-color: transparent;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:focus {
+  color: #0056b3;
+}
+
+/* BOTONES FINALIZAR COMPRA CARRITO */
+
+.pagos-container {
+  overflow: hidden;
+  height: 90px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);  
+  align-items: center;
+  display: flex;
+  padding: 20px 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.pagos-container h5 {
+  color: #FFF;
+  padding: 6px 5px 0px;
+}
+
+
+/* CAROUSEL */
+.carousel {
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 80vh;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-item img {
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-inner h5 {
+  color: rgb(255, 255, 255);
+  text-shadow: 5px -5px 10px rgb(0, 0, 0);
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.carousel-caption h5:hover {
+  transform: scale(1.05);
+}
+
+.carousel-caption {
+  color: rgb(255, 255, 255);
+  text-shadow: 5px -5px 10px rgb(0, 0, 0);
+  /*font-size: 4vh;*/
+  font-weight: bold;
+}
+
+
+/* CARDS */
+.card {
+  box-shadow: 0 15px 30px rgba(172, 0, 0, 0.733);
+}
+
+.card-body {
+  padding: 10px 2px;
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.card-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: lightslategrey;
+}
+
+.card-text.precio {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.card .card-img-top {
+  border-radius: 1vh;
+}
+
+.card-btn:hover {
+  color: #007bff;
+  background-color: transparent;
+  border-color: #007bff;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 15px 30px rgba(255, 123, 0, 0.733);
+}
+
+.card img:hover {
+  /*transform: scale(1.05);*/
+  filter: brightness(1.5);
+  filter: contrast(1.3);
+}
+
+.agotado {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #dc3545;
+  color: #FFF;
+  text-align: center;
+  margin: 5px 0 0;
+  border: 1px solid #dc3545;
+  border-radius: 1vh;
+  padding: 4px 0;
+}
+
+.agotado:hover {
+  background-color: darkred;
+  color:#ffffff;
+}
+
+.boton-carrito {
+  color: #dc3545;;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.boton-carrito:hover {
+  color: darkred;
+}
+
+.cantidad {
+  align-items: center;
+}
+
+.cantidad label {
+  margin-bottom: 0px;
+}
+
+.input-cantidad {
+  height: 30px;
+  margin-left: 10px;
+  width: 70px;
+}
+
+.input-cantidad.disabled {
+  border-color: #767676;
+}
+
+input[type=number] {
+  /*for absolutely positioning spinners*/
+  position: relative; 
+  padding: 5px;
+  padding-right: 25px;
+  border-color: #007bff;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+ 
+}
+
+input[type=number]::-webkit-outer-spin-button, 
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+  width: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: green;
+}
+
+.cards {
+  margin-top: 1rem !important;
+}
+
+.search_card {
+  margin-top: 5rem !important;
+}
+
+
+/* FORMULARIO */
+.formulario {
+  display: flex;
+}
+
+.my-form {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.button-form {
+  border-radius: 1vh;
+  width: 60%;
+  height: 40px;
+  font-weight: 600;
+  min-width: 150px;
+}
+
+.button-form:hover {
+  color: #007bff;
+  background-color: #fff;
+  border-color: #007bff;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+input[type="email"],
+input[type="password"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  background: #8f0000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0em 3em;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: rgb(255, 255, 255);
+  opacity: 0.4;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0em 0.3em;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer .fa-heart {
+  color: #ff4444;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: .5;
+  color: #ffffff;
+}
+
+/* Scroll Top */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #8f0000;
+    color: white;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.scroll-top-btn:hover {
+    background-color: white;
+    color: #8f0000;
+}
+
+.scroll-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.disabled button {
+  pointer-events: none;
+}
+
+
+/* @medias */ 
+
+@media (max-width: 1190px) {  
+  .nav-button {
+    font-size: 16px;
+  }
+  .navbar h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1150px) {  
+  .nav-button {
+    font-size: 16px;
+  }
+  .navbar h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1050px) {  
+  .nav-button {
+    font-size: 16px;
+  }
+  .navbar h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {  
+  .navbar h1 {
+    font-size: 20px;
+  }
+  .navbar-brand {
+    padding: 0px;
+  }
+  .navbar-collapse {
+    background-color: #8f0000;
+    padding: 20px 10px 10px;   
+    margin: 0 -1em;
+  }
+  .dropdown-menu {
+    border: none;
+    padding-left: 20px;
+  }
+  .nav-item {
+    padding: 10px 0 0;
+  } 
+}
+
+@media (max-width: 768px) {  
+  .footer {
+    justify-content: center;
+  }
+  #copyright, #copyright-name {
+    display: none;
+  }
+  .nav-button {
+    font-size: 14px;
+  }
+    .my-form {
+    padding: 0px;
+  }
+}
